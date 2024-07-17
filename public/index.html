@@ -1,0 +1,26 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>책플릿스</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header>
+    <h1 onclick="navigateHome()">Chakflix</h1>
+    <input type="text" id="searchInput" placeholder="책을 검색하세요...">
+    <button onclick="searchBooks()">검색</button>
+  </header>
+  <main>
+    <section id="categoryMenu">
+      <!-- 카테고리 메뉴가 여기에 표시됩니다 -->
+    </section>
+    <section id="bookResults">
+      <!-- 책 검색 결과가 여기에 표시됩니다 -->
+    </section>
+  </main>
+  <script src="/js/scripts.js"></script>
+</body>
+</html>

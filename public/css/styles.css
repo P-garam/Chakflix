@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #141414;
+  color: #ffffff;
+}
+
+header {
+  background-color: #e50914;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+#searchInput {
+  width: 60%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f40612;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e50914;
+}
+
+main {
+  padding: 20px;
+}
+
+.book-item {
+  background-color: #333333;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.book-item img {
+  width: 100px;
+  height: 150px;
+}
