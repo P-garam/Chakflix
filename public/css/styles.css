@@ -1,3 +1,5 @@
+/* public/css/styles.css */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -13,6 +15,7 @@ header {
 
 h1 {
   margin: 0;
+  cursor: pointer;
 }
 
 #searchInput {
@@ -40,14 +43,43 @@ main {
   padding: 20px;
 }
 
+.category-section {
+  margin-bottom: 20px;
+}
+
+.books-container {
+  display: flex;
+  overflow-x: auto;
+}
+
 .book-item {
   background-color: #333333;
-  margin: 10px;
+  margin-right: 10px;
   padding: 10px;
   border-radius: 5px;
+  flex: 0 0 auto;
+  width: 200px;
+  transition: transform 0.2s ease-in-out; /* 추가: hover 시 변환 효과 */
 }
 
 .book-item img {
-  width: 100px;
-  height: 150px;
+  width: 100%;
+  height: auto;
+}
+
+.book-item h3 {
+  font-size: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.3em;
+}
+
+.book-item p {
+  font-size: 0.8em;
+  margin-top: 0.3em;
+  color: #ccc;
+}
+
+.book-item:hover {
+  transform: scale(1.05); /* 추가: hover 시 크기 확대 */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* 추가: hover 시 테두리 박스 그림자 */
 }
