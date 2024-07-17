@@ -1,5 +1,3 @@
-
-
 document.addEventListener('DOMContentLoaded', async () => {
   try {
       // 카테고리 목록을 가져와서 메뉴에 추가

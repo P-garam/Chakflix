@@ -1,11 +1,9 @@
-
 // app.js
 const express = require('express');
 const path = require('path');
 const dotenv = require('dotenv');
 
 // .env 파일에 저장된 환경 변수 로드
-
 dotenv.config();
 
 const app = express();
